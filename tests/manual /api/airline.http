@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/v1/airlines.json
+
+###
+
+GET http://localhost:3000/api/v1/airlines/united-airlines
+
+###
+
+POST http://localhost:3000/api/v1/airlines/
+content-type: application/json
+
+{
+  "name": "fake airline"
+}
+
+###
+
+PATCH http://localhost:3000/api/v1/airlines/united-airline
+content-type: application/json
+
+{
+  "name": "other fake airline"
+}
+
+###
+
+DELETE http://localhost:3000/api/v1/airlines/united-airline

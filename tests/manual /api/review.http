@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/v1/reviews/
+content-type: application/json
+
+{
+  "title": "Great experience!",
+  "description": "had a great time!",
+  "score": 4,
+  "airline_id": 1
+}
+
+###
+
+DELETE http://localhost:3000/api/v1/reviews/3
